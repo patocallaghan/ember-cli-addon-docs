@@ -1,0 +1,21 @@
+{
+	"version": 3,
+	"file": "dummy.css",
+	"sourceRoot": "/Users/patocallaghan/hacking/ember-cli-addon-docs/app/styles",
+	"sources": [
+		"../../sass_compiler-input_base_path-ycXXvvhN.tmp/app/styles/app.scss",
+		"../../sass_compiler-input_base_path-ycXXvvhN.tmp/app/styles/pod-styles.scss",
+		"../../sass_compiler-input_base_path-ycXXvvhN.tmp/app/styles/docs/components/docs-logo/demo1/styles.scss",
+		"../../sass_compiler-input_base_path-ycXXvvhN.tmp/app/styles/docs/components/docs-logo/demo2/styles.scss",
+		"../../sass_compiler-input_base_path-ycXXvvhN.tmp/app/styles/docs/components/docs-logo/demo3/styles.scss"
+	],
+	"sourcesContent": [
+		"// @import 'tailwind';\n@import 'pod-styles';\n",
+		"@import \"docs/components/docs-logo/demo1/styles.scss\";\n@import \"docs/components/docs-logo/demo2/styles.scss\";\n@import \"docs/components/docs-logo/demo3/styles.scss\";\n",
+		"// BEGIN-SNIPPET docs-logo-ember-styles.scss\n.my-ember-addon-logo {\n  background: #333;\n  color: white;\n  width: 50%;\n  height: 50%;\n  margin: 0 auto;\n  padding: 20px;\n}\n// END-SNIPPET\n",
+		"// BEGIN-SNIPPET docs-logo-ember-cli-styles.scss\n.my-ember-cli-addon-logo {\n  background: #F44336;\n  color: white;\n  width: 50%;\n  height: 50%;\n  margin: 0 auto;\n  padding: 20px;\n}\n// END-SNIPPET\n",
+		"// BEGIN-SNIPPET docs-logo-ember-data-styles.scss\n.my-ember-data-addon-logo {\n  background: #2196F3;\n  color: white;\n  width: 50%;\n  height: 50%;\n  margin: 0 auto;\n  padding: 20px;\n}\n// END-SNIPPET\n"
+	],
+	"names": [],
+	"mappings": "AECA,AAAA,oBAAoB,CAAC;EACnB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,IAAI,GACd;;ACPD,AAAA,wBAAwB,CAAC;EACvB,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,IAAI,GACd;;ACPD,AAAA,yBAAyB,CAAC;EACxB,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,IAAI,GACd"
+}
