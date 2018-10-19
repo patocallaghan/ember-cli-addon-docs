@@ -4318,7 +4318,7 @@ ember-cli@~3.4.3:
     watch-detector "^0.1.0"
     yam "^0.0.24"
 
-ember-code-snippet@patocallaghan/ember-code-snippet#patoc/prism:
+ember-code-snippet@patocallaghan/ember-code-snippet#29bb76e50471b979b953897bd9af0bb550a4a7ec:
   version "2.3.1"
   resolved "https://codeload.github.com/patocallaghan/ember-code-snippet/tar.gz/29bb76e50471b979b953897bd9af0bb550a4a7ec"
   dependencies:
