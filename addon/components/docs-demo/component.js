@@ -57,16 +57,15 @@ export default Component.extend({
   snippets: computed('activeSnippet', 'snippetRegistrations.[]', function() {
     let activeSnippet = this.get('activeSnippet');
 
-    return this.get('snippetRegistrations')
-      .map(({ name, label, language }) => {
-        let defaults = this.defaultsFromName(name);
-        return {
-          name,
-          isActive: activeSnippet === name,
-          label: label || defaults.label,
-          language: language || defaults.language
-        };
-      })
+    return this.get('snippetRegistrations').map(({ name, label, language }) => {
+      let defaults = this.defaultsFromName(name);
+      return {
+        name,
+        isActive: activeSnippet === name,
+        label: label || defaults.label,
+        language: language || defaults.language
+      };
+    });
   }),
 
   /**
@@ -94,7 +93,7 @@ export default Component.extend({
       case 'hbs':
       case 'md':
         label = 'template.hbs';
-        language = 'htmlbars';
+        language = 'handlebars';
         break;
       default:
         label = 'script.js';
